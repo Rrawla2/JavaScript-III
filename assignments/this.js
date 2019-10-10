@@ -34,15 +34,15 @@ myObj.sayHello('Kristi');
 // Principle 3
 // code example for New Binding
 
-function CoridalPerson(greeter) {
+function CordialPerson(greeter) {
     this.greeting = 'Hello',
     this.greeter = greeter,
     this.speak = function() {
         console.log(`${this.greeting} ${this.greeter}`)
     }
 }
-const oscar = new CoridalPerson('Kristi');
-const kristi = new CoridalPerson('Oscar');
+const oscar = new CordialPerson('Kristi');
+const kristi = new CordialPerson('Oscar');
 kristi.speak();
 
 // Principle 4
