@@ -7,7 +7,7 @@
 
 * 3. If you call your function with the 'new' keyword, it will create a new binding.  This then refers to the         new instance of the object. It will change with each new instance.
 
-* 4. .call and .apply you will overwrite what .this points to and explicitly bind it to the new value. example.      jerry.speak.call(newman); will print "Hello Jerry"
+* 4. .call and .apply means that you will overwrite what .this points to and explicitly bind it to the new value. example.      jerry.speak.call(newman); will print "Hello Jerry"
 *
 * write out a code example of each explanation above
 */
@@ -43,7 +43,7 @@ function CordialPerson(greeter) {
 }
 const oscar = new CordialPerson('Kristi');
 const kristi = new CordialPerson('Oscar');
-kristi.speak();
+kristi.speak();cd 
 
 // Principle 4
 // code example for Explicit Binding
